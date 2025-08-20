@@ -40,7 +40,7 @@ jobs:
           username: ${{ secrets.EMAIL_USER }}
           password: ${{ secrets.EMAIL_PASS }}
           subject: "CI Pipeline status"
-          to: "yourmail@gmail.com"
+          to: "lilit.ambaryan@gmail.com"
           from: "GitHub Actions <yourmail@gmail.com>"
           body: |
             Build & Test job finished.
