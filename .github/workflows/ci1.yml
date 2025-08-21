@@ -41,7 +41,7 @@ jobs:
           password: ${{ secrets.EMAIL_PASS }}
           subject: "CI Pipeline status"
           to: "lilit.ambaryan@gmail.com"
-          from: "GitHub Actions <yourmail@gmail.com>"
+          from: "GitHub Actions <lilit.ambaryan@gmail.com>"
           body: |
             Build & Test job finished.
             Status: ${{ job.status }}
